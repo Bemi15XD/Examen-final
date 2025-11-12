@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Páginas web | Portafolio de Evidencias</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Páginas web</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Videos.html" class="activo">Videos</a>
+        <a href="Galeria.html">Galeria</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <section>
+        <h2>video 1</h2>
+    <video width="640" height="480" controls>
+     <source src="videos/12.mp4" alt="pagina de animacion en css"
+        type="video/mp4">
+        <p>
+
+    </section>
+
+       <section>
+        <h2>video 2</h2>
+    <video width="640" height="480" controls>
+     <source src="videos/13.mp4" alt="pagina de animacion en css"
+        type="video/mp4">
+        <p>
+
+    </section>
+    
+
+  <section>
+        <h2>video 3</h2>
+    <video width="640" height="480" controls>
+     <source src="videos/14.mp4" alt="pagina de animacion en css"
+        type="video/mp4">
+        <p>
+
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2025 - Examen</p>
+    </footer>
+</body>
+</html>
+
+-<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Examen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <style>
+        .contacto-container {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        .contacto-info {
+            width: 50%;
+            padding-right: 20px;
+        }
+
+        .mapa {
+            width: 50%;
+            text-align: right; 
+        }
+
+        iframe {
+            width: 90%; 
+            height: 350px;
+            border: none;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .contacto-container {
+                flex-direction: column;
+            }
+
+            .contacto-info, .mapa {
+                width: 100%;
+                text-align: center;
+            }
+
+            iframe {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Videos.html">Videos</a>
+        <a href="Galeria.html">Galeria</a>
+        <a href="contacto.html" class="activo">Contacto</a>
+    </nav>
+
+    <section>
+         <section>
+            <h2>Contactame</h2>
+
+            <div class="contacto-container">
+             <!-- Texto a la izquierda -->
+             <div class="contacto-info">
+                
+                <h1><a href=brandonernestomaranonibarra@gmail.com> </a></h1>
+                <p> puedes visitarme en la siguiente ubicación:</p> </div>
+             </div>
+          </section>
+            <div class="mapa">
+               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3762.3015203861496!2d-98.97676122456572!3d19.442562640362187!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1e4819c1d7ce5%3A0x19bd56ab9c18548d!2sCECYTEM%20CHIMALHUAC%C3%81N%20II!5e0!3m2!1ses-419!2smx!4v1762909509938!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+           
+    </section>
+
+    <section>
+         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdYJlS6Dua5M1XFlxufiMn-6AHRMEMePnJVOHUlZXgdhtoAQg/viewform?embedded=true" width="640" height="922" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Examen</p>
+    </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria | Examen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+
+</head>
+<body>
+    <header>
+  
+
+   
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galería | Examen</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #f0f0f0;
+  }
+
+  header {
+    background: #339;
+    color: pink;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+
+  nav a {
+    margin: 0 10px;
+    text-decoration: Hola;
+    font-weight: bold;
+    color: #339;
+  }
+
+  nav a.activo {
+    color: pink;
+  }
+
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+
+  .galeria img {
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.6s ease; /* transición suave */
+  }
+
+  /* 🔹 Clase que aplica la rotación */
+  .rotar {
+    transform: rotate(360deg);
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Examen</h1>
+</header>
+
+<nav>
+  <a href="index.html">Inicio</a>
+  <a href="Videos.html">Videos</a>
+  <a href="Galeria.html" class="activo">Galería</a>
+  <a href="contacto.html">contacto</a>
+</nav>
+
+<main>
+  <h2>Galería de Imágenes Giratorias</h2>
+  <div class="galeria">
+    <img src="img/CEcytem.JPG" alt="A">
+    <img src="img/cecytem2.JPG" alt="E">
+    <img src="img/cECYTEM5.JPG" alt="J">
+    <img src="img/1.jpg" alt="nose">
+    <img src="img/2.jpg" alt="o">
+    <img src="img/3.jpg" alt="u">
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2025 - Examen</p>
+</footer>
+
+<script>
+  // 🔹 Script: hace que cada imagen gire al hacer clic
+  document.querySelectorAll('.galeria img').forEach(img => {
+    img.addEventListener('click', () => {
+      img.classList.toggle('rotar');
+    });
+  });
+</script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio | examen Brandon Ernesto</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Examen y galeria<h/>
+    </header>
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="Videos.html">Videos</a>
+        <a href="Galeria.html">Galeria</a>                                               
+        <a href="contacto.html">Contactos</a>
+    </nav>
+
+    <section>
+        <h2>Presentación</h2>
+        <p><strong>Nombre:</strong> Brandon Ernesto Marañon Ibarra</p>
+        <p><strong>Carrera:</strong> Animacion Digital.</p>
+        <p><strong>Plantel:</strong> Colegio de Estudios Cientificos y Tecnologicos del estado de México num.155</p>
+        <p><strong>Edad:</strong> 17 años </p>
+        <p><strong>Profesor:</strong> Mario Alberto Castañeda Torres</p>
+        <p><strong>Mision:</strong> Mi mision es mostrar lo aprendido y empleado en nuestro semestre actual, por medio de esta pagina</p>
+         <p><strong>Vision:</strong> Mi vision es mostrarle al profesor lo empleado por medio de una practica que contenga lo solicitado por el profesor</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Examen</p>
+    </footer>
+</body> 
+</html>
